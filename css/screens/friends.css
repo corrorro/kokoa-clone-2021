@@ -8,10 +8,25 @@
   background-color: rgb(245, 232, 209);
   padding: 15px 0px;
   font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: -20px;
 }
 
 #friends-display-link i {
   color: rgb(243, 187, 83);
   padding: 0px 5px;
   margin-bottom: 5px;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(128, 128, 128, 0.685);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
 }
