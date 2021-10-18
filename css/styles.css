@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap");
+
+@import "reset.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+body {
+  font-family: "Baloo Tamma 2";
+  background-color: wheat;
+  color: rgba(0, 0, 0, 0.692);
+}

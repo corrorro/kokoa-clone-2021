@@ -1,0 +1,65 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.welcome-header__text {
+  width: 50%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.login-form input:not([type="submit"]) {
+  background-color: wheat;
+  transition: border-color 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.438);
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: rgb(255, 136, 0);
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.login-form input[type="submit"] {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  padding: 15px 0px;
+  border-radius: 5px;
+  font-family: "Baloo Tamma 2";
+  font-size: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.login-form a {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 15px;
+}
