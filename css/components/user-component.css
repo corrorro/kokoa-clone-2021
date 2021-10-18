@@ -59,3 +59,7 @@
 .user-left-numbers {
   margin-top: 10px;
 }
+
+.user-component__text {
+  text-decoration: none;
+}
