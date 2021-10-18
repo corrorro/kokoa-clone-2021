@@ -9,11 +9,15 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/points.css";
+@import "components/icon-row.css";
+@import "components/alternative_screen_header.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 
 body {
   font-family: "Baloo Tamma 2";
