@@ -11,6 +11,7 @@
 @import "components/points.css";
 @import "components/icon-row.css";
 @import "components/alternative_screen_header.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";

@@ -61,5 +61,9 @@
 }
 
 .user-component__text {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.main-screen a {
   text-decoration: none;
 }
